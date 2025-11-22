@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>I Ching:Life Guide – Privacy Policy</title>
+  <title>I Ching: Study – Privacy Policy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <style>
     :root { color-scheme: light dark; }
@@ -17,78 +17,306 @@
     .card { background: #fff; border: 1px solid rgba(0,0,0,0.06); border-radius: 12px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
     a { color: #0a84ff; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .toprow { display:flex; align-items:center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+    .langswitch { font-size: 14px; }
+    .langswitch button { background: transparent; border: 1px solid rgba(0,0,0,0.15); padding: 4px 10px; border-radius: 999px; cursor: pointer; }
+    .langswitch button.active { background: #111; color: #fff; border-color: #111; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #121212; color: #eaeaea; }
+      .card { background: #1b1b1b; border-color: rgba(255,255,255,0.12); box-shadow: none; }
+      a { color: #4da3ff; }
+      .muted { color: #aaa; }
+      .langswitch button { border-color: rgba(255,255,255,0.22); color: #eaeaea; }
+      .langswitch button.active { background: #eaeaea; color: #000; border-color: #eaeaea; }
+    }
+    .lang { display:none; }
+    .lang.show { display:block; }
   </style>
 </head>
 <body>
 
-  <h1>I Ching:Life Guide – Privacy Policy</h1>
-  <p class="muted">Last updated: 2025‑11‑09</p>
+  <div class="toprow">
+    <div></div>
+    <div class="langswitch" aria-label="Language">
+      <button id="btn-en" data-setlang="en" class="active">EN</button>
+      <button id="btn-zhhans" data-setlang="zh-hans">简体</button>
+      <button id="btn-zhhant" data-setlang="zh-hant">繁體</button>
+    </div>
+  </div>
 
-  <div class="card">
+  <!-- EN -->
+  <div class="lang" data-lang="en">
+    <h1>I Ching: Study – Privacy Policy</h1>
+    <p class="muted">Last updated: 2025‑11‑15</p>
+
+    <div class="card">
+      <p>
+        This app is an Education app focused on learning, reference, and quizzes about the classic text of the I Ching.
+        It provides hexagram lookup, curated explanations, and practice tests. We respect your privacy. This policy explains what data the app handles and how it is used.
+      </p>
+    </div>
+
+    <h2>Summary</h2>
+    <ul>
+      <li>No account, no sign‑in, no subscriptions, no ads.</li>
+      <li>No analytics SDKs or third‑party trackers.</li>
+      <li>Study records (such as hexagram lookups, favorites, and quiz progress) are stored <strong>locally on your device</strong> only.</li>
+      <li>The app works offline. Network access occurs only if you open in‑app links (website, this policy) or choose to send feedback email.</li>
+    </ul>
+
+    <h2>Data We Store On Your Device</h2>
+    <p>The app may save learning‑related records locally (e.g., viewed hexagrams, study settings, and quiz progress). This is kept in the app’s sandbox (UserDefaults) and is not uploaded to any server.</p>
+    <p><strong>Your control:</strong></p>
+    <ul>
+      <li>Manage or remove history within the app where provided (e.g., clear quiz records or browsing history).</li>
+      <li>Remove all data by deleting the app from your device.</li>
+    </ul>
+
+    <h2>What We Do <em>Not</em> Collect</h2>
+    <ul>
+      <li>No personal identifiers (name, email, phone, precise location).</li>
+      <li>No contact book, photos, camera, microphone, or calendar data.</li>
+      <li>No behavioral analytics or advertising identifiers.</li>
+    </ul>
+
+    <h2>Optional Email Feedback</h2>
     <p>
-      I Ching:Life Guide is a Lifestyle app that offers classic I Ching guidance for daily reflection and decision‑making.
-      We respect your privacy. This policy explains what data the app handles and how it is used.
+      If you tap “Feedback” in Settings, your Mail app opens with a pre‑filled message to <a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a>.
+      For troubleshooting, the draft includes app version, iOS version, and device model. You can review and remove this information before sending.
+      We only receive the email you choose to send; the app itself does not transmit any data in the background.
+    </p>
+
+    <h2>In‑App Web Pages</h2>
+    <p>
+      The app may open web content (official site or this policy) inside an in‑app browser. Visiting those pages may allow the website to collect standard server logs or cookies according to its own policy. The core app features remain fully offline.
+    </p>
+
+    <h2>Educational Focus and Sensitive Uses</h2>
+    <p>
+      The app presents the I Ching for <strong>educational</strong> and <strong>cultural</strong> study. Any hexagram casting demonstrations are provided strictly for learning how the classic system works and have no predictive, therapeutic, or advisory claim. The app does not provide fortune‑telling, and it is <em>not</em> a substitute for professional advice (medical, legal, financial, psychological, or otherwise).
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+      The app is rated 4+ and intended for a general audience. We do not knowingly collect personal information from children, and we do not require an account or any personal identifiers.
+      If you believe we have received personal data from a child, contact us and we will delete it.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+      Your data stays on your device within the iOS sandbox. We rely on the security protections provided by iOS. Always keep your device updated and protected with a passcode/biometrics.
+    </p>
+
+    <h2>Data Retention</h2>
+    <p>Local history remains on your device until you delete items or uninstall the app. We do not operate a server copy.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this policy as the app evolves (for example, if we add new features). Material changes will be reflected by updating the “Last updated” date above and publishing the new version at this URL.
+    </p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about privacy or this app, please contact: <a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a></p>
+
+    <h2>Legal Notes</h2>
+    <p class="muted">
+      This app provides educational content only. It does not offer medical, legal, financial, or psychological advice; please seek qualified professionals for such matters.
     </p>
   </div>
 
-  <h2>Summary</h2>
-  <ul>
-    <li>No account, no sign‑in, no subscriptions, no ads.</li>
-    <li>No analytics SDKs or third‑party trackers.</li>
-    <li>Questions you type and the cast results are stored <strong>locally on your device</strong> only.</li>
-    <li>The app works offline. Network access occurs only if you open in‑app links (website, privacy policy) or choose to send feedback email.</li>
-  </ul>
+  <!-- ZH-HANS (Simplified) -->
+  <div class="lang" data-lang="zh-hans">
+    <h1>周易学习 — 隐私政策</h1>
+    <p class="muted">最后更新：2025‑11‑15</p>
 
-  <h2>Data We Store On Your Device</h2>
-  <p>The app saves your divination history locally (question text, date/time, and the resulting hexagrams). This is kept in the app’s sandbox (UserDefaults) and is not uploaded to any server.</p>
-  <p><strong>Your control:</strong></p>
-  <ul>
-    <li>Delete individual records in the History screen (edit or swipe to delete).</li>
-    <li>Remove all data by deleting the app from your device.</li>
-  </ul>
+    <div class="card">
+      <p>
+        本应用属于教育类，聚焦《周易》的学习、查询与练习测验功能，提供卦象查询、精选讲解与练习题。我们重视你的隐私，本政策说明应用如何处理数据及其用途。
+      </p>
+    </div>
 
-  <h2>What We Do <em>Not</em> Collect</h2>
-  <ul>
-    <li>No personal identifiers (name, email, phone, precise location).</li>
-    <li>No contact book, photos, camera, microphone, or calendar data.</li>
-    <li>No behavioral analytics or advertising identifiers.</li>
-  </ul>
+    <h2>概要</h2>
+    <ul>
+      <li>无账号、无登录、无订阅、无广告。</li>
+      <li>不集成统计 SDK 或任何第三方追踪。</li>
+      <li>学习相关记录（如卦象浏览、收藏、测验进度）仅<strong>保存在你的设备本地</strong>。</li>
+      <li>应用可离线使用。仅在你打开站点（官网/本政策）或主动发送反馈邮件时使用网络。</li>
+    </ul>
 
-  <h2>Optional Email Feedback</h2>
-  <p>
-    If you tap “Feedback” in Settings, your Mail app opens with a pre‑filled message to <a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a>.
-    For troubleshooting, the draft includes app version, iOS version, and device model. You can review and remove this information before sending.
-    We only receive the email you choose to send; the app itself does not transmit any data in the background.
-  </p>
+    <h2>我们在设备本地保存的数据</h2>
+    <p>应用可能在本地保存与你学习相关的内容（例如已浏览的卦象、学习设置、测验进度）。这些数据存放在应用沙盒（UserDefaults）中，不会上传到任何服务器。</p>
+    <p><strong>你的控制：</strong></p>
+    <ul>
+      <li>在应用内可按提供的入口管理或清理记录（如清除测验记录或浏览历史）。</li>
+      <li>删除应用即可移除全部本地数据。</li>
+    </ul>
 
-  <h2>In‑App Web Pages</h2>
-  <p>
-    The app may open web content (official site or this policy) inside an in‑app browser. Visiting those pages may allow the website to collect standard server logs or cookies according to its own policy. The core app features remain fully offline.
-  </p>
+    <h2>我们不收集的内容</h2>
+    <ul>
+      <li>不收集个人标识信息（姓名、邮箱、电话、精确位置）。</li>
+      <li>不读取通讯录、照片、相机、麦克风或日历数据。</li>
+      <li>不进行行为分析，也不使用广告标识符。</li>
+    </ul>
 
-  <h2>Children’s Privacy</h2>
-  <p>The app is intended for a general audience and does not knowingly collect personal information from children. If you believe we have received personal data from a child, contact us and we will delete it.</p>
+    <h2>可选的邮件反馈</h2>
+    <p>
+      在“设置”里选择“反馈”会打开系统邮件应用，向 <a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a> 发送邮件。为方便排查问题，邮件草稿会包含应用版本、iOS 版本和设备型号；你可在发送前查看并删除这些信息。我们只会收到你主动发送的邮件；应用本身不会在后台传输任何数据。
+    </p>
 
-  <h2>Security</h2>
-  <p>
-    Your data stays on your device within the iOS sandbox. We rely on the security protections provided by iOS. Always keep your device updated and protected with a passcode/biometrics.
-  </p>
+    <h2>应用内网页</h2>
+    <p>
+      应用可能在内置浏览器打开官网或本政策。访问这些页面时，相关网站可能根据其政策收集常规服务器日志或设置 Cookies。应用的核心功能保持完全离线。
+    </p>
 
-  <h2>Data Retention</h2>
-  <p>Local history remains on your device until you delete items or uninstall the app. We do not operate a server copy.</p>
+    <h2>教育定位与敏感用途说明</h2>
+    <p>
+      本应用以<strong>教育</strong>与<strong>文化学习</strong>为目的。任何“起卦演示”仅用于介绍经典方法的学习，不具有预测、疗愈或建议的性质；本应用不提供算命服务，亦<strong>不</strong>替代任何专业意见（如医疗、法律、金融、心理等）。
+    </p>
 
-  <h2>Changes to This Policy</h2>
-  <p>
-    We may update this policy as the app evolves (for example, if we add new features). Material changes will be reflected by updating the “Last updated” date above and publishing the new version at this URL.
-  </p>
+    <h2>儿童隐私</h2>
+    <p>
+      应用分级为 4+，面向普通大众。我们不以识别个人为目的收集儿童信息，也不要求账号或任何个人标识。若你认为我们误收集了儿童的个人数据，请联系我们删除。
+    </p>
 
-  <h2>Contact</h2>
-  <p>If you have questions about privacy or this app, please contact: <a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a></p>
+    <h2>安全</h2>
+    <p>
+      你的数据存放在设备内的 iOS 沙盒中。我们依赖 iOS 提供的安全机制；请保持系统更新，并为设备设置密码/生物识别。
+    </p>
 
-  <h2>Legal Notes</h2>
-  <p class="muted">
-    This app provides lifestyle guidance and educational content only. It is not medical, legal, or financial advice.
-  </p>
+    <h2>数据保留</h2>
+    <p>本地记录会一直保留在你的设备中，直到你删除条目或卸载应用。我们不保留服务器副本。</p>
 
+    <h2>政策更新</h2>
+    <p>
+      随着功能演进，我们可能更新本政策（例如新增功能时）。我们会在页面顶部更新时间，并在本网址发布最新版本。
+    </p>
+
+    <h2>联系</h2>
+    <p>如对隐私或本应用有疑问，请发送邮件至：<a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a></p>
+
+    <h2>法律声明</h2>
+    <p class="muted">
+      本应用仅提供教育内容，不提供医疗、法律、金融或心理建议；如需此类帮助，请咨询相应的专业人士。
+    </p>
+  </div>
+
+  <!-- ZH-HANT (Traditional) -->
+  <div class="lang" data-lang="zh-hant">
+    <h1>周易學習 — 隱私政策</h1>
+    <p class="muted">最後更新：2025‑11‑15</p>
+
+    <div class="card">
+      <p>
+        本應用屬於教育類，聚焦《周易》的學習、查詢與練習測驗功能，提供卦象查詢、精選講解與練習題。我們重視你的隱私，本政策說明應用如何處理資料及其用途。
+      </p>
+    </div>
+
+    <h2>概要</h2>
+    <ul>
+      <li>無帳號、無登入、無訂閱、無廣告。</li>
+      <li>不集成統計 SDK 或任何第三方追蹤。</li>
+      <li>學習相關記錄（如卦象瀏覽、收藏、測驗進度）僅<strong>保存在你的裝置本地</strong>。</li>
+      <li>應用可離線使用。僅在你開啟站點（官網／本政策）或主動發送回饋郵件時使用網路。</li>
+    </ul>
+
+    <h2>我們在裝置本地保存的資料</h2>
+    <p>應用可能在本地保存與你學習相關的內容（例如已瀏覽的卦象、學習設定、測驗進度）。這些資料存放在應用沙盒（UserDefaults）中，不會上傳到任何伺服器。</p>
+    <p><strong>你的控制：</strong></p>
+    <ul>
+      <li>在應用內可按提供的入口管理或清理記錄（如清除測驗記錄或瀏覽歷史）。</li>
+      <li>移除應用即可刪除全部本地資料。</li>
+    </ul>
+
+    <h2>我們不收集的內容</h2>
+    <ul>
+      <li>不收集個人識別資訊（姓名、電子郵件、電話、精確位置）。</li>
+      <li>不讀取通訊錄、照片、相機、麥克風或行事曆資料。</li>
+      <li>不進行行為分析，也不使用廣告識別碼。</li>
+    </ul>
+
+    <h2>可選的郵件回饋</h2>
+    <p>
+      在「設定」中選擇「回饋」會開啟系統郵件應用，向 <a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a> 發送郵件。為方便排查問題，郵件草稿會包含應用版本、iOS 版本與裝置型號；你可在傳送前檢視並刪除這些資訊。我們只會收到你主動傳送的郵件；應用本身不會在背景傳輸任何資料。
+    </p>
+
+    <h2>應用內網頁</h2>
+    <p>
+      應用可能在內建瀏覽器開啟官網或本政策。造訪這些頁面時，相關網站可能依其政策收集一般伺服器日誌或設定 Cookie。應用的核心功能保持完全離線。
+    </p>
+
+    <h2>教育定位與敏感用途說明</h2>
+    <p>
+      本應用以<strong>教育</strong>與<strong>文化學習</strong>為目的。任何「起卦示範」僅用於介紹經典方法的學習，不具備預測、療癒或建議性質；本應用不提供算命服務，亦<strong>不</strong>替代任何專業意見（如醫療、法律、金融、心理等）。
+    </p>
+
+    <h2>兒童隱私</h2>
+    <p>
+      應用分級為 4+，面向一般大眾。我們不以識別個人為目的收集兒童資訊，也不需要帳號或任何個人識別。若你認為我們誤收集了兒童的個人資料，請與我們聯繫並予以刪除。
+    </p>
+
+    <h2>安全</h2>
+    <p>
+      你的資料存放於裝置內的 iOS 沙盒。我們依賴 iOS 提供的安全機制；請保持系統更新，並為裝置設定密碼／生物辨識。
+    </p>
+
+    <h2>資料保留</h2>
+    <p>本地記錄會一直保留在你的裝置中，直到你刪除項目或移除應用。我們不保留伺服器副本。</p>
+
+    <h2>政策更新</h2>
+    <p>
+      隨著功能演進，我們可能更新本政策（例如新增功能時）。我們會在頁面頂部更新時間，並於本網址發布最新版本。
+    </p>
+
+    <h2>聯絡</h2>
+    <p>如對隱私或本應用有任何疑問，請寄信至：<a href="mailto:lidonghui11911@gmail.com">lidonghui11911@gmail.com</a></p>
+
+    <h2>法律聲明</h2>
+    <p class="muted">
+      本應用僅提供教育內容，不提供醫療、法律、金融或心理建議；如需此類協助，請諮詢相應之專業人士。
+    </p>
+  </div>
+
+  <script>
+    (function() {
+      function qs(k) {
+        const m = new RegExp("[?&]" + k + "=([^&#]*)").exec(location.search);
+        return m ? decodeURIComponent(m[1].replace(/\+/g, " ")) : null;
+      }
+      function pickDefault() {
+        const q = (qs("lang") || "").toLowerCase();
+        if (q === "en" || q === "zh" || q === "zh-hans" || q === "zh-hant") {
+          return q === "zh" ? "zh-hans" : q;
+        }
+        const saved = localStorage.getItem("iching.lang");
+        if (saved === "en" || saved === "zh-hans" || saved === "zh-hant") return saved;
+        const nav = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+        if (nav.startsWith("zh")) {
+          // choose hant for TW/HK/MO locales
+          if (nav.includes("hant") || nav.endsWith("-tw") || nav.endsWith("-hk") || nav.endsWith("-mo")) return "zh-hant";
+          return "zh-hans";
+        }
+        return "en";
+      }
+      function apply(l) {
+        var title;
+        if (l === "zh-hans") title = "周易学习 — 隐私政策";
+        else if (l === "zh-hant") title = "周易學習 — 隱私政策";
+        else title = "I Ching: Study – Privacy Policy";
+        document.title = title;
+        document.querySelectorAll(".lang").forEach(function(el){
+          el.classList.toggle("show", el.getAttribute("data-lang") === l);
+        });
+        document.getElementById("btn-en").classList.toggle("active", l === "en");
+        document.getElementById("btn-zhhans").classList.toggle("active", l === "zh-hans");
+        document.getElementById("btn-zhhant").classList.toggle("active", l === "zh-hant");
+        localStorage.setItem("iching.lang", l);
+      }
+      var lang = pickDefault();
+      apply(lang);
+      document.getElementById("btn-en").addEventListener("click", function(){ apply("en"); history.replaceState(null, "", location.pathname + "?lang=en"); });
+      document.getElementById("btn-zhhans").addEventListener("click", function(){ apply("zh-hans"); history.replaceState(null, "", location.pathname + "?lang=zh-hans"); });
+      document.getElementById("btn-zhhant").addEventListener("click", function(){ apply("zh-hant"); history.replaceState(null, "", location.pathname + "?lang=zh-hant"); });
+    })();
+  </script>
 </body>
 </html>
