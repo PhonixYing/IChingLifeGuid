@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://phonixying.github.io/IChingLifeGuid/</title>
+  <link>https://phonixying.github.io/IChingLifeGuid/</link>
+
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/</link>
+     <title>易經研習：人生指引</title>
+     <description>易經人生指引網站</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/zh/</link>
+     <title>易经研习：人生指引</title>
+     <description>易经人生指引网站</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/en/</link>
+     <title>I Ching Study: Life Guide</title>
+     <description>A VitePress Site</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/pt/</link>
+     <title>Estudo do I Ching: Guia de Vida</title>
+     <description>Um site VitePress</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/ru/</link>
+     <title>Изучение И Цзин: Путеводитель по жизни</title>
+     <description>Сайт на VitePress</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/es/</link>
+     <title>Estudio del I Ching: Guía de Vida</title>
+     <description>Un sitio VitePress</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/ko/</link>
+     <title>주역 공부: 삶의 길잡이</title>
+     <description>VitePress 사이트</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/fa/</link>
+     <title>مطالعهٔ چینگ: راهنمای زندگی</title>
+     <description>یک سایت VitePress</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://phonixying.github.io/IChingLifeGuid/ja/</link>
+     <title>易経スタディ：ライフガイド</title>
+     <description>VitePress サイト</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
