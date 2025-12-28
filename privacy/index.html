@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>I Ching: Study – Privacy Policy</title>
+	  <title>I Ching: Yi Jing Life Guide – Privacy Policy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <style>
     :root { color-scheme: light dark; }
@@ -44,9 +44,9 @@
     </div>
   </div>
 
-  <!-- EN -->
-  <div class="lang" data-lang="en">
-    <h1>I Ching: Study – Privacy Policy</h1>
+	  <!-- EN -->
+	  <div class="lang" data-lang="en">
+	    <h1>I Ching: Yi Jing Life Guide – Privacy Policy</h1>
     <p class="muted">Last updated: 2025‑11‑15</p>
 
     <div class="card">
@@ -124,9 +124,9 @@
     </p>
   </div>
 
-  <!-- ZH-HANS (Simplified) -->
-  <div class="lang" data-lang="zh-hans">
-    <h1>周易学习 — 隐私政策</h1>
+	  <!-- ZH-HANS (Simplified) -->
+	  <div class="lang" data-lang="zh-hans">
+	    <h1>易经人生导航 — 隐私政策</h1>
     <p class="muted">最后更新：2025‑11‑15</p>
 
     <div class="card">
@@ -200,9 +200,9 @@
     </p>
   </div>
 
-  <!-- ZH-HANT (Traditional) -->
-  <div class="lang" data-lang="zh-hant">
-    <h1>周易學習 — 隱私政策</h1>
+	  <!-- ZH-HANT (Traditional) -->
+	  <div class="lang" data-lang="zh-hant">
+	    <h1>易經人生導航 — 隱私政策</h1>
     <p class="muted">最後更新：2025‑11‑15</p>
 
     <div class="card">
@@ -297,15 +297,15 @@
         }
         return "en";
       }
-      function apply(l) {
-        var title;
-        if (l === "zh-hans") title = "周易学习 — 隐私政策";
-        else if (l === "zh-hant") title = "周易學習 — 隱私政策";
-        else title = "I Ching: Study – Privacy Policy";
-        document.title = title;
-        document.querySelectorAll(".lang").forEach(function(el){
-          el.classList.toggle("show", el.getAttribute("data-lang") === l);
-        });
+	      function apply(l) {
+	        var title;
+	        if (l === "zh-hans") title = "易经人生导航 — 隐私政策";
+	        else if (l === "zh-hant") title = "易經人生導航 — 隱私政策";
+	        else title = "I Ching: Yi Jing Life Guide – Privacy Policy";
+	        document.title = title;
+	        document.querySelectorAll(".lang").forEach(function(el){
+	          el.classList.toggle("show", el.getAttribute("data-lang") === l);
+	        });
         document.getElementById("btn-en").classList.toggle("active", l === "en");
         document.getElementById("btn-zhhans").classList.toggle("active", l === "zh-hans");
         document.getElementById("btn-zhhant").classList.toggle("active", l === "zh-hant");
